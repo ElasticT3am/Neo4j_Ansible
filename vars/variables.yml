@@ -1,0 +1,5 @@
+---
+# Remote host variables
+user: elasticteam
+group: elasticteam
+remote_user: root
