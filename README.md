@@ -18,14 +18,14 @@ More specifically, in the environment has been installed the following:
 
 # Installation
 
-1. Copy your ssh keys to the remote hosts
+1.  Copy your ssh keys to the remote hosts
 
 > ssh-copy-id root@host
 
-2. Make sure that you can ping you remote hosts
+2.  Make sure that you can ping you remote hosts
 
 > ansible all -i hosts -m ping -u root
 
-3. Install all the packages
+3.  Install all the packages
 
 > ansible-playbook -i hosts elastic-team.yml
