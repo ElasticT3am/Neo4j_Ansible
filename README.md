@@ -2,7 +2,7 @@
 
 With this repository, Elastic Team creates the appropriate environment, using ansible
 to deploy Neo4j distributed Graph database for the needs of the postgraduate
-course ­ M123 Distributed [Systems](http://www.cslab.ntua.gr/~dtsouma/M123-DistrSys-spring2016.html).
+course ­ [M123 Distributed Systems](http://www.cslab.ntua.gr/~dtsouma/M123-DistrSys-spring2016.html).
 
 
 # Provisioning
