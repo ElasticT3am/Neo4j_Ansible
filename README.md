@@ -12,7 +12,7 @@ In the Provisioning phase, Elastic Team installs the appropriate software to the
 More specifically, in the environment has been installed the following:
 
 * elastic-team (User / Group)
-* Java 8 (jre)
+* Java (default-jre)
 * Neo4j
 
 
