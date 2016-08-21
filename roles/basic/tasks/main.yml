@@ -1,5 +1,5 @@
 ---
-# This basic playbook contains essential tasks
+# This basic playbook contains basik tasks
 
 - name: Create elastic-team user (sudoer)
   user: name={{user}} createhome=no state=present groups=sudo append=yes shell=/bin/bash
@@ -11,8 +11,3 @@
   action: apt name=git state=present update_cache=yes
   tags:
     - git
-
-- name: Install jre package
-  action: apt name=default-jre state=present update_cache=yes
-  tags:
-    - default-jre

@@ -1,4 +1,4 @@
- ---
+---
 - name: Apply basic configuration to master node
   hosts: master
   remote_user: "{{ remote_user }}"
@@ -8,3 +8,4 @@
 
   roles:
     - basic
+    - java8
